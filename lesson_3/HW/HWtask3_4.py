@@ -12,13 +12,12 @@ def converter(num):
 
     while num > 0:
         list1.insert(0, num % 2)
-        print(num)
         num //= 2
 
     print(*list1, sep="")
 
 
-converter(int(input()))
+converter(int(input('Введите число: ')))
 
 
 # num = int(input('Введите число: '))
