@@ -32,6 +32,3 @@ def fact(N):
 
 print(fact(4))
 
-
-
-
