@@ -27,5 +27,3 @@ def oddSum(N):
     return(sum(int(list1[i]) for i in range(0, len(list1), 2)))
 
 print(oddSum('2 3 5 9 3'))
-
-
